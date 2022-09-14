@@ -86,8 +86,31 @@ class HBNBCommand(cmd.Cmd):
         finally:
             return line
 
-    def postcmd(self, stop, line):
-        """Prints if isatty is false"""
+    def postc^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         """Prints if isatty is false"""
+
+
+
+
+
+
+                                                                                                                                                      14
+                                                                                                                                            """Prints if isatty is false"""
         if not sys.__stdin__.isatty():
             print('(hbnb) ', end='')
         return stop
